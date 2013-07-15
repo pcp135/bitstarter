@@ -38,15 +38,24 @@
 	  line-height: 24px;
 	}
 
-
-
-	.navigation, .pitch, .section1, .section2, .faq, .footer {
-	  padding: 10px 0px 10px 0px;
+	.pitch {
+	  padding: 2.5% 0%;
 	}
-	.video, .thermometer, .order, .social {
-	  border: 1px dotted;
+	.order {
+	  padding: 2% 0%;
+	}
+	.actions {
+	  background-color: #343434;
+	  padding: 3% 0%;
+	}
+	.video, .thermometer, .order, .social, .statistics {
 	  text-align: center;
 	}
+	.statistics-h3, .statistics-p {
+	  color: white;
+	}
+
+
 	.video {
 	  height: 124px;
 	  line-height: 124px;
@@ -96,10 +105,12 @@
 	  <p class="lead">One sentence description.</p>
 	</div>
       </div>
-      <div class="row pitch">
-	<div class="span6 video">
-	  Video
+      <div class="row-fluid pitch">
+	<div class="span5 offset1 video">
+	  <img class="img-polaroid" src="http://placehold.it/480x300">
 	</div>
+
+
 	<div class="span6">
 	  <div class="thermometer">
 	    Thermometer
