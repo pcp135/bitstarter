@@ -21,6 +21,19 @@
 	    border-left: 1px white solid;
 	  }  
 	}
+	@media (max-width: 480px) {
+	  .copy {
+	    padding: 2.5% 10%;
+	  }
+	  .linediv-l {
+	    border-bottom: 1px white solid;
+	  }  
+	  .linediv-r {
+	    border-top: 1px white solid;
+	  }  
+	}
+	  
+
 	body {
 	  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	}
@@ -51,7 +64,7 @@
 	.video, .thermometer, .order, .social, .statistics {
 	  text-align: center;
 	}
-	.statistics-h3, .statistics-p {
+	.statistics h3, .statistics p {
 	  color: white;
 	}
 
@@ -110,6 +123,35 @@
 	  <img class="img-polaroid" src="http://placehold.it/480x300">
 	</div>
 
+	<div class="span5 actions">
+	  <div class="span8 offset2">
+	    <div class="statistics">
+	      <div class="span4">
+		<div class="linediv-l">
+		  <h3>100</h3> <p>backers</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="linediv-c">
+		  <h3>$6,000</h3> <p>of $10,000</p>
+		</div>
+	      </div>
+	      <div class="span4">
+		<div class="linediv-r">
+		  <h3>10</h3> <p>days left</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="span10 offset1">
+	    <div class="thermometer progress active">
+	      <div class="bar bar-success" style="width: 60%"></div>
+	      <div class="bar bar-warning" style="width: 40%"></div>
+	    </div>
+	  </div>
+	</div>
+	
+	
 
 	<div class="span6">
 	  <div class="thermometer">
